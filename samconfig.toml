@@ -1,0 +1,20 @@
+version = 0.1
+[test]
+[test.deploy]
+[test.deploy.parameters]
+stack_name = "hodlup"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1xz4z92b59wcb"
+s3_prefix = "hodlup"
+region = "ap-southeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "hodlup"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1xz4z92b59wcb"
+s3_prefix = "hodlup"
+region = "ap-southeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
